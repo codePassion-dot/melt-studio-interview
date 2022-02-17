@@ -1,5 +1,5 @@
 import TodoModel from "../TodoModel";
-import Todo from "./Todo";
+import Todo from "@components/Todo";
 interface Props {
   todos: TodoModel[];
 }

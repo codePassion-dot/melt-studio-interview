@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TodoModel from "TodoModel";
-import DateHeader from "./components/Date";
-import TasksList from "./components/TasksList";
+import DateHeader from "@components/Date";
+import TasksList from "@components/TasksList";
 const TodoList = () => {
   const [todo, setTodo] = useState<TodoModel>();
   const fakeTodos: TodoModel[] = [
