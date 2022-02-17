@@ -3,7 +3,7 @@ interface Props {
   text: string;
   isDone: boolean;
 }
-const Todo: React.FC<Props> = ({ text, isDone }: Props) => {
+const Todo: React.FC<Props> = ({ text, isDone }) => {
   return (
     <div className="relative flex w-full flex-row space-x-4">
       <h2 className="mr-10 w-fit">{text}</h2>

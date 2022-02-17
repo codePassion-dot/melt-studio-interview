@@ -3,7 +3,7 @@ import Todo from "@components/Todo";
 interface Props {
   todos: TodoModel[];
 }
-const TasksList: React.VFC<Props> = ({ todos }: Props) => {
+const TasksList: React.FC<Props> = ({ todos }) => {
   return (
     <div className="mx-auto">
       {todos.map(({ text, isDone, id }) => {
